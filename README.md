@@ -35,8 +35,7 @@ The data flow follows the **medallion architecture**:
 1. **Sources**: Data is collected from CRM and ERP systems.  
 2. **Bronze Layer**: Stores raw ingested data in its original form for audit and reprocessing.  
 3. **Silver Layer**: Cleans and transforms data, ensuring consistency and applying business rules.  
-4. **Gold Layer**: Stores aggregated and business-ready data models for analysis.  
-5. **Consume**: Data is visualized and consumed through BI tools such as Power BI, Tableau, and Google Data Studio.
+4. **Gold Layer**: Stores aggregated and business-ready data models for analysis.
 
 ---
 
